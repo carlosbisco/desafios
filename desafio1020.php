@@ -1,7 +1,7 @@
 <?php
 // transformando valores de dias para anos, meses e dias:
 
-echo "Informe um valor inteiro: ";
+echo "Informe a quantidade de dias: ";
 $valor = trim(fgets(STDIN));
 
 $anos  = intval($valor / 365);
